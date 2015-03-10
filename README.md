@@ -50,6 +50,7 @@ To use it in a non-SASS project, instead import `dist/style-guide.min.css` to yo
 * time-grunt
 * connect-livereload
 * grunt-open
+
 ###### For style testing purposes
 * font-awesome
 * bootstrap-sass
