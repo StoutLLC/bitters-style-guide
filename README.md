@@ -5,7 +5,7 @@
 This repository provides an efficient means of creating and editing a style guide, and then implementing the style guide into other projects.
 To use this repository, fork/clone it into a repository of your own, and edit the scss files inside of the `src/css` folder.
 
-This project is based off of [Bitters](https://github.com/thoughtbot/bitters) and [Bourbon](https://github.com/thoughtbot/bourbon), a project by ThoughBot.
+This project is based off of [Bitters](https://github.com/thoughtbot/bitters) and [Bourbon](https://github.com/thoughtbot/bourbon), a project by ThoughtBot.
 
 ### Installation ###
 
