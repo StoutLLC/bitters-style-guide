@@ -56,7 +56,7 @@ To use it in a non-SASS project, instead import `dist/style-guide.min.css` to yo
 
 ### Contribution guidelines ###
 
-* Please try to conform to [these](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit-message-format) guidelines.
+Please try to conform to [these](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit-message-format) guidelines.
 
 ### Questions? ###
 
