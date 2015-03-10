@@ -1,0 +1,15 @@
+@import '../bower_components/bourbon/dist/bourbon'; // http://bourbon.io/
+
+$fa-font-path: "../bower_components/font-awesome/fonts";
+@import '../bower_components/font-awesome/scss/font-awesome';
+
+/**
+ * Uncomment this line if you are building your project on top of bootstrap.
+ * Optionally, only include certain bootstrap sass files from the `bootstrap`
+ * subfolder.
+ */
+//@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+@import 'base';
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather|Roboto:500,700,900);

@@ -1,0 +1,24 @@
+{
+  "name": "bitters-style-guide",
+  "version": "0.1.0",
+  "authors": [
+    "Andrew Koroluk <koroluka@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "GNU v2",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "4.0.2"
+  },
+  "devDependencies": {
+    "font-awesome": "~4.3.0",
+    "bootstrap-sass": "~3.3.3"
+  }
+}
