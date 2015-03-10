@@ -13,12 +13,22 @@ The first step is to fork/clone the repository into one of your own.
 
 Inside of the repo's root directory, run `npm install` and `bower install` to install the dependencies.
 
-When you're ready to start developing, run `grunt serve`. This will serve up a demonstration page, utilizing the style guide. Edit 
+### How to use it ###
+
+When you're ready to start developing, run `grunt serve`. This will serve up a demonstration page, utilizing the style guide. Edit the SCSS files that begin with '_'
+to edit your style guide. Edit `index.html` to see how your style guide affects different DOM elements. Edit `evaluation.scss` to add other resources that you would like to test against.
+For example, if your project is already built off of bootstrap, include bootstrap before your style guide to see how it will affect your styles.
+
+When you would like to build the project, run `grunt build`. This will compile your SCSS into standard CSS, inside of the `dist` folder.
+It will also copy your style guide SCSS files to the dist folder.
+
+Then, it if you are using Bower, include your style guide's git repo as a Bower dependency. This helps disjoint your style guide from your other projects, as well
+as allowing for easy updating.
 
 To use the style guide in a SASS project, first import Bourbon in your main stylesheet file.
-After that, import `dist/base` from the style guide's root folder.
+After that, import `your-style-guide/dist/base`.
 
-To use it in a non-SASS project, instead import `dist/style-guide.min.css`
+To use it in a non-SASS project, instead import `dist/style-guide.min.css` to your project.
 
 ### Dependencies ###
 * Bourbon
